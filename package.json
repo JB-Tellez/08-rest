@@ -4,8 +4,8 @@
   "description": "![cf](https://i.imgur.com/7v5ASc8.png) Lab 08: REST ======",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **/.js",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ./**/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,6 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "jest": "^23.1.0"
-  }
+  },
+  "dependencies": {}
 }
